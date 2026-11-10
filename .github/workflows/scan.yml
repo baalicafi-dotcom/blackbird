@@ -41,4 +41,5 @@ jobs:
           name: scan-${{ inputs.username }}-${{ github.run_number }}
           path: results/
           retention-days: 30
-          if-no-files-found: warn
+          if-no-files-found: warn 
+          
